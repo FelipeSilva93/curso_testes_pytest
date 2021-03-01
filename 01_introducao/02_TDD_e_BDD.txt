@@ -1,0 +1,31 @@
+O que é TDD?
+
+TDD é a abreviação para "test driven developmet" ou "desenvolvimento dirigido por testes".
+TDD se refere ao estilo de programação em que três atividades estão intimamente interligadas:
+* Coding
+* Testing (na forma de escrita de testes unitarios)
+* Design (na forma de refatoração)
+
+TDD pode ser sucintamente descrito com o seguinte conjunto de regras:
+-> Escreva um único test, descrevendo um aspecto do programa
+-> Rode o teste, que deverá falhar porque o programa ainda não tem esta funcionalidade
+-> Escreva somente a quantidade de códigos necessários para fazer o teste passar
+-> Refatore o código para que ele seja o mais simples possível
+-> Repita o processo, acumulando mais testes unitarios para cobrir toda a aplicação
+
+O que é BDD?
+
+BDD é a abreviação para "behavioral driven developmet" ou "desenvolvimento dirigido por comportamentos".
+BDD é um estilo de programação que evolui do TDD, ele é diferente pois nasceu para ser utilizado
+a partir da linguagem comum, o que faz com que a comunicação entre desenvolvedores, não desenvolvedores e
+stakeholders.
+
+stakeholders -> pessoas envolvidas no projeto que sem elas o projeto não existiria.
+
+Nos dois modelos, ambos os testes são escritos antes do código em si, o BDD segue a mesma filosofia do TDD.
+Porém o BDD é mais focado no usuário e baseado no comportamento do sistema.
+
+Uma excelente caracteristica do BDD é que ele é escrito na linguagem comum, o que facilita o
+entendimento de todos.
+
+Falaremos mais sobre TDD e BDD mais pra frente.

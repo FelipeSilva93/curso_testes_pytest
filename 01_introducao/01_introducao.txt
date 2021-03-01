@@ -1,0 +1,46 @@
+Um pouco da história sobre testes:
+
+A ideia sobre testes tem evoluído muito com o passar dos últimos anos. Por muito tempo
+os desenvolvedores colocavam muito mais foco e esforço no código em si e lidavam com os
+problemas do código depois. Problemas estes que eram consertados depois, no momento em que
+havia uma bateria de testes ao término do projeto.
+
+Ok, mas qual a diferença entre escrever testes no final e no começo do projeto? Bom,
+fazer isso, ou seja, escrever os testes somente ao final do projeto é como varrer a sujeira
+para debaixo do tapete, lá na frente, o trabalho vai ser muito maior, e com certeza a equipe
+não terá muito tempo para fazer os testes com o cuidade e carinho que deveriam.
+
+A primeira grande mudança de ideologia veio com a melhora da tecnologia e a pressão pelos
+resultados que vieram com essa grande mudança. Quando os computadores eram mais lentos,
+periodos de alteração de código levavam muito mais tempo. Até mesmo um simples programa poderia
+levar dezenas de minutos para ser arquitetado, um programa mais complexo poderia levar horas.
+
+Conforme os computadores foram ficando mais rápidos, tempos de compilaçao diminuiram drasticamente,
+e o tempo de desenvolvimento das equipes respondeu de igual forma.
+
+Testes fizeram com que os desenvolvedores passassem a pensar sobre o código que eles estava escrevendo,
+e considerar todos os tipos de cenarios que esse código poderia enfrentar, não só a parte feliz
+onde o usuário iria consumir o software sem problemas.
+
+Com o surgimento da prática do TDD, essa ideologia garantiu que os testes passassem a fazer parte da
+rotina de desenvolvimento, e que não fosse tão tediosa, afinal. Uma das piores armadilhas
+que um desenvolvedor pode cair é a de escrever uma porrada de códigos e voltar ao final fazendo
+os testes.
+
+Além de representar maior tempo para a entrega do produto, que geralmente já está apertado,
+isso também significa que ele vai ter que revisitar partes do código quem nem mesmo o próprio
+desenvolvedor vai se lembrar, ou vai lembrar mas não vai estar tão fresco quando no momento em
+que ele escreveu aquilo.
+
+Similar a isso, a mudança do processo de desenvolvimento de cascata para ágil, trouxe um grande foco
+em testes durante o processo de desenvolvimento.
+O processo de desenvolvimento ágil advoga que os times devem incluir pessoas dedicadas para o que
+é chamado de "quality assurance (QA)", no qual deve ter o foco em escrever testes e manter um sólido
+ambiente de testes em torno da aplicação. Essa metodologia permite que alguém que não tenha
+trabalhado no desenvolvimento do código tenha um persepção diferente de quem escreveu o código,
+sendo menos dificil de encontrar bugs ou vulnerabilidades antes do software atingir o consumidor final.
+
+Seguindo a linha do TDD, o processo de desenvolvimento agil também trouxe um novo conceito, o BDD.
+Esse método leva o unit test um degrau pra cima, e olha para o teste da aplicação em termos de
+funcionalidade sendo entregue.
+Falaremos mais sobre TDD e BDD.

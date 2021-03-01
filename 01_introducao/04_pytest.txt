@@ -1,0 +1,9 @@
+[instalação do pytest]
+
+
+[criando nosso primeiro teste únitario]
+
+
+[criar mais de um teste unitario e rodar apenas um teste]
+
+[rodar o pytest utilizando as opções]

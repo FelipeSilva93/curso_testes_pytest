@@ -1,0 +1,28 @@
+Quais as ferramentas utilizadas para fazer esse tal de TDD e BDD:
+
+Na verdade, existem muitas ferramentas que nos auxiliam a escrever/executar esses testes
+unitarios e comportamentais.
+
+Para testes unitarios temos:
+-> nose2
+-> unittest (biblioteca padrão do python)
+-> pytest
+* green (que é um test runner)
+
+Nos testes comportamentais temos:
+-> behavior
+-> lettuce
+
+Neste tutorial a gente vai utilizar o pytest para testes unitarios e o behavior
+para testes de comportamento.
+
+Também vou mostrar um pouquinho do green que é bem legal.
+
+Algumas ferramentas complementares podem nos auxiliar nessa empreitada de testes,
+que também serão utilizadas no decorrer do nosso programa.
+
+-> coverage
+-> pytest-cov
+-> paver
+-> locust (talvez)
+-> webtest
